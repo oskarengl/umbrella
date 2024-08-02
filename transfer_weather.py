@@ -69,7 +69,7 @@ def update_weather():
     global last_update, current_category, current_weather, current_temp, html_status, git_status
     
     api_key = '6afc27086b8749619c5222220243007'
-    city = 'Sidney'
+    city = 'Sindelfingen'
     
     category, weather_text, temperature = get_weather_category(api_key, city)
     if category:
